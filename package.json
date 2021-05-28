@@ -1,0 +1,24 @@
+{
+  "name": "onemap-cli",
+  "version": "1.0.0",
+  "description": "a cli for create or init onemap project",
+  "main": "bin/onemap.js",
+  "bin": {
+    "onemap": "bin/onemap.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hewenjie",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^4.5.13",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0"
+  }
+}
